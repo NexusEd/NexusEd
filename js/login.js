@@ -26,7 +26,7 @@ function iniciarSesion() {
     // Realiza la validación 
     if (usuario === 'admin' && contraseña === 'admin') {
         // Si las credenciales son correctas, redirige al usuario al "home"
-        window.location.href = 'https://nexused.github.io/NexusEd/pages/home.html';
+        window.location.href = '/NexusEd/pages/home.html';
     } else {
         // Si las credenciales son incorrectas, muestra un mensaje de error (puedes personalizarlo)
         alert('Credenciales incorrectas. Inténtalo de nuevo.');
